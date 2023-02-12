@@ -3,9 +3,9 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
-    if value.lower() in ["true", "yes", "1", "enable", "y"]:
+    if value.lower(1) in ["true", "yes", "1", "enable", "y"]:
         return True
-    elif value.lower() in ["false", "no", "0", "disable", "n"]:
+    elif value.lower(0) in ["false", "no", "0", "disable", "n"]:
         return False
     else:
         return default
