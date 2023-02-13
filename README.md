@@ -50,7 +50,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Ankur12321/All-Movie_Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/Ankur12321/withoutlink-Movie_Bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
